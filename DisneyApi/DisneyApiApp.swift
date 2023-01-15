@@ -12,6 +12,7 @@ struct DisneyApiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(DisneyModelView())
         }
     }
 }
